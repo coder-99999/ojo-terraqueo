@@ -1,0 +1,11 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ojo Terráqueo</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="styles.css"><link rel="manifest" href="./manifest.json"><meta name="theme-color" content="#0f1b2d"><link rel="apple-touch-icon" href="./icon-192.png"><script>if("serviceWorker" in navigator)navigator.serviceWorker.register("./sw.js");</script></head><body>
+<header><h1>🌍 Ojo Terráqueo</h1><nav id="filtros"></nav></header>
+<main><section id="mapa"></section>
+<section id="visor" hidden><div class="vh"><h2 id="vt"></h2><button id="cerrar">✕</button></div><div id="vc"></div><p id="vf"></p></section>
+<h2 class="sub">Vistas en directo <small>(se cargan al pulsar para ahorrar datos)</small></h2>
+<section id="grid"></section></main>
+<footer>Las emisiones pertenecen a sus autores y se muestran solo con sus reproductores oficiales. Mapa © colaboradores de OpenStreetMap.</footer>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><script src="app.js"></script></body></html>
